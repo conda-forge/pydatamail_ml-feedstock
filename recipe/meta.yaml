@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - bleach >=5.0.1
     - cssutils >=2.5.0
