@@ -39,7 +39,9 @@ tests:
       imports:
         - pydatamail_ml
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}
+        - "*"
 
 about:
   summary: pydatamail_ml - Machine Learning extension for pydatamail
